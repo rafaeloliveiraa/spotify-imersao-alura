@@ -102,6 +102,7 @@ body {
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
+    border-radius: 10px;
 }
 
 .section-playlist .section-playlist__content {
@@ -112,6 +113,7 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff; 
+    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -155,3 +157,14 @@ body {
     text-decoration: underline;
 }
 
+.languages .languages__button {
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
